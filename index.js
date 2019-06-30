@@ -24,13 +24,13 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(number){
   var array = [];
-  var i = 1;
+  var i = 0;
   
   do{
     array[i] = 'I love the Beatles!';
     i++;
     
-  } while (i < number && number < 15)
+  } while (i <= number && number < 15)
   
   return array;
 }
